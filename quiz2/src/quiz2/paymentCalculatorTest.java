@@ -9,8 +9,9 @@ class paymentCalculatorTest {
 	@Test
 	public void test() {
 		paymentCalculator test = new paymentCalculator();
-		double output = test.loan(0.1);
-		double output = test
+		assertEquals(743.65, paymentCalculator(0.1,60,35000));
+		
+
 	}
 
 }
